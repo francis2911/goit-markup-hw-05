@@ -72,9 +72,8 @@ padding-right: 15px; */
   position: absolute;
   width: 48px;
   height: 4px;
-  margin-left: 200px;
   top: 76px;
-  left: 38px;
+  left: 320px;
   border-radius: 2px;
   background-color: #2196f3;
 }
@@ -82,11 +81,10 @@ padding-right: 15px; */
 .card-portafolio::after {
   content: '';
   position: absolute;
-  width: 70px;
+  width: 48px;
   height: 4px;
-  margin-left: 295px;
-  top: 48px;
-  left: 137px;
+  top: 76px;
+  left: 425px;
   border-radius: 2px;
   background-color: #2196f3;
 }
@@ -567,6 +565,27 @@ main li {
   width: 370px;
   height: 294px;
   padding-right: 1px;
+}
+.img-parrafo {
+  width: 370px;
+  height: 294px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.55em;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+  position: absolute;
+  text-align: justify;
+  padding: 64px 24px;
+  margin: 0 auto;
+  background-color: rgba(33, 150, 243, 0.9);
+  top: 294px;
+  transition-duration: 250ms;
+}
+
+.link-portafolio:hover > .img-parrafo {
+  top: 0px;
 }
 
 /* Trabajamos en los titulos del cuerpo h3 */
