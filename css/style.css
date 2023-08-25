@@ -571,8 +571,8 @@ main li {
   overflow: hidden;
 }
 
-.link-portafolio:hover.img-text,
-.link-portafolio:focus.img-text {
+.link-portafolio:hover .img-text,
+.link-portafolio:focus .img-text {
   transform: translateY(0%);
 }
 
