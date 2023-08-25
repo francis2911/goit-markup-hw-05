@@ -566,26 +566,29 @@ main li {
   height: 294px;
   padding-right: 1px;
 }
-.img-parrafo {
-  width: 370px;
-  height: 294px;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 1.55em;
-  letter-spacing: 0.03em;
-  color: #ffffff;
-  position: absolute;
-  text-align: justify;
-  padding: 64px 24px;
-  margin: 0 auto;
-  background-color: rgba(33, 150, 243, 0.9);
-  top: 294px;
-  transition-duration: 250ms;
+.img-container {
+  position: relative;
+  overflow: hidden;
 }
 
-.link-portafolio:hover > .img-parrafo {
-  top: 0px;
+.img-container:hover > .img-text {
+  top: 0%;
+  cursor: pointer;
+}
+.img-text {
+  top: 100%;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  background-color: rgba(33, 150, 243, 0.9);
+  padding: 32px;
+  transition: top 250ms ease;
 }
 
 /* Trabajamos en los titulos del cuerpo h3 */
